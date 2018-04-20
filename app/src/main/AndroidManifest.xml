@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cloudcode.didik.audioplayer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoapp"
+        android:label="Tausiyah Hanan Attaki"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Tausiyah Hanan Attaki">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Audio1Activity"
+            android:label="Jodoh Saya Gak Muncul" />
+        <activity
+            android:name=".Audio2Activity"
+            android:label="Cinta Yang Dibumbui Religi" />
+        <activity
+            android:name=".Audio3Activity"
+            android:label="Pakai Baper Itu Setelah Nikah"/>
+        <activity
+            android:name=".Audio4Activity"
+            android:label="Amalan Untuk Calon Mantu"/>
+        <activity
+            android:name=".Audio5Activity"
+            android:label="Ubah Takdir Dengan Doa"/>
+        <activity
+            android:name=".Audio6Activity"
+            android:label="Allah Itu Baik Banget"/>
+        <activity
+            android:name=".Audio7Activity"
+            android:label="Doain Orang Yang Ngeselin"/>
+        <activity
+            android:name=".Audio8Activity"
+            android:label="Jangan Baper"/>
+        <activity
+            android:name=".Audio9Activity"
+            android:label="Di Reject"/>
+        <activity
+            android:name=".Audio10Activity"
+            android:label="Jangan Kecewa"/>
+    </application>
+
+</manifest>
